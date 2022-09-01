@@ -1,14 +1,15 @@
-a:hover{text-decoration: underline #2196F3; color: #2196F3;} 
+
 body {
     font-family: 'Roboto';
     font-weight: 700;
-
 }
 
 ul {
     list-style: none;
-    text-decoration: none;
     margin: 0px;
+}
+a{
+    text-decoration: none;
 }
 
 /* Хедер */
@@ -48,28 +49,23 @@ margin-right: 93px;
 
 .links {
     color: #212121;
-
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-
 }
 
+.links:hover{color: #2196F3;}
 
 
 
-a[href="./index.html"] {
+
+.links {
     margin: 32px 55px 32px 0px;
 }
 
-.links-Portfolio {
+.links {
     margin: 32px 55px 32px 0px;
-}
-
-a[href="/contacts"] {
-    margin: 32px 335px 32px 0px;
 }
 
 .list-contacts {
@@ -90,11 +86,11 @@ a[href="/contacts"] {
 
 
 a[href="mailto:info@devstudio.com"] {
-    margin: 32px 50px 32px 0px;
+    margin-left: 335px;
 }
 
 a[href="tel:+380961111111"] {
-    margin: 32px 151px 0px 0px;
+    margin-left: 32px;
 }
 
 /* Мейн */
