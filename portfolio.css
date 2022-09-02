@@ -1,7 +1,4 @@
-a:hover {
-   text-decoration: underline #2196F3;
-   color: #2196F3;
-}
+
 
 body {
    font-family: 'Roboto';
@@ -57,56 +54,52 @@ nav {
 }
 
 .list-links {
-   list-style: none;
-   display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .links {
-   color: #212121;
-
-
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.1;
-   letter-spacing: 0.02em;
-
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
-a[href="./index.html"] {
-   margin: 32px 55px 32px 0px;
+.links:hover{color: #2196F3;}
+
+
+
+
+.links {
+    margin: 32px 55px 32px 0px;
 }
 
-.links-Portfolio {
-   margin: 32px 55px 32px 0px;
-}
-
-a[href="/contacts"] {
-   margin: 32px 335px 32px 0px;
-}
 
 .list-contacts {
-   list-style: none;
-   display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .contacts {
-   color: #212121;
+    color: #212121;
 
 
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.1;
-   letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
+
+
 a[href="mailto:info@devstudio.com"] {
-   margin: 32px 50px 32px 0px;
+    margin-left: 335px;
 }
 
 a[href="tel:+380961111111"] {
-   margin: 32px 151px 0px 0px;
+    margin-left: 32px;
 }
-
 .menu {display: flex;
 justify-content: center
 }

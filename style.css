@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Roboto';
     font-weight: 700;
@@ -64,9 +63,6 @@ margin-right: 93px;
     margin: 32px 55px 32px 0px;
 }
 
-.links {
-    margin: 32px 55px 32px 0px;
-}
 
 .list-contacts {
     list-style: none;
@@ -253,7 +249,7 @@ img[alt="12345"] {
 
     color: #212121;
 }
-.card-Igor{
+.team-item{
     margin-top: 186px;
     width: 270px;
     height: 368px;
@@ -295,19 +291,6 @@ width: 270px;
         
             color: #757575;
     }
-
-.card-Olga{
-    margin-top: 186px;
-    width: 270px;
-        height: 368px;
-        margin-right: 30px;
-        background: #FFFFFF;
-            /* material shadow v1 */
-        
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-            border-radius: 0px 0px 4px 4px;
-}
-
 img[alt="901"] {
     
     width: 270px;
@@ -337,18 +320,6 @@ img[alt="901"] {
     
         color: #757575;}
 
-.card-Mikola{
-    margin-top: 186px;
-    width: 270px;
-    height: 368px;
-    margin-right: 30px;
-    background: #FFFFFF;
-    /* material shadow v1 */
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
 img[alt="902"] {
     width: 270px;
         height: 260px;
@@ -376,20 +347,6 @@ img[alt="902"] {
         letter-spacing: 0.03em;
     
         color: #757575;}
-
-
-
-.card-Muhaylo{
-    margin-top: 186px;
-    width: 270px;
-        height: 368px;
-        margin-right: 30px;
-        background: #FFFFFF;
-        /* material shadow v1 */
-    
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-}
 
 img[alt="903"] {
 width: 270px;
