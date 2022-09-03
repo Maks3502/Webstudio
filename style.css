@@ -275,7 +275,7 @@ img[alt="028"] {
 width: 270px;
     height: 260px;
 }
-.title-name-Igor{
+.team-name{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -289,101 +289,39 @@ width: 270px;
 
     color: #212121;
  }
-    .profesion-Product{
-        margin-top: 10px;
-        font-weight: 400;
-            font-size: 16px;
-            line-height: 1,1;
-            /* identical to box height */
-        
-            text-align: center;
-            letter-spacing: 0.03em;
-        
-            color: #757575;
-    }
+ .team-profesion{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+ }
+
 img[alt="901"] {
     
     width: 270px;
         height: 260px;
         margin-right: 30px;
-}
-.title-name-Olga{
-    margin-top: 30px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,1;
-    /* identical to box height */
-
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;}
-    .profesion-Frontend{
-        margin-top: 10px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1,1;
-        /* identical to box height */
+} 
     
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #757575;}
 
 img[alt="902"] {
     width: 270px;
         height: 260px;
         margin-right: 30px;
 }
-.title-name-Mikola{
-    margin-top: 30px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,1;
-    /* identical to box height */
 
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;}
-    .profesion-Marketing{
-        margin-top: 10px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1,1;
-        /* identical to box height */
     
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #757575;}
 
 img[alt="903"] {
 width: 270px;
     height: 260px;
 }
-.title-name-Muhaylo{
-    margin-top: 30px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,1;
-    /* identical to box height */
-
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;}
-    .profesion-Ul{
-        margin-top: 10px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1,1;
-        /* identical to box height */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #757575;}
 
 /* Футер */
 .footer {
