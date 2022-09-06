@@ -10,12 +10,11 @@ body {
    height: 80px;
    background: #FFFFFF;
    
-   left: 0px;
-   top: 0px;
+   
 }
 
 ul {
-   padding: 0;
+  
    list-style: none;
       text-decoration: none;
       margin: 0px;
