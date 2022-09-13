@@ -1,55 +1,45 @@
 
-
 body {
    font-family: 'Roboto';
 
 }
 
-.header {
-   width: 1600px;
-   height: 80px;
-   background: #FFFFFF;
-   
-   
-}
-
-ul {
-  
-   list-style: none;
-      text-decoration: none;
-      margin: 0px;
-}
-
-/* Хедер */
-header {
-   width: 1600px;
-   height: 80px;
-}
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;}
+ 
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 nav {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .main-page {
-   color: #000000;
-   font-family: 'Raleway';
-   margin-left: 215px;
-   margin-right: 93px;
+    color: #000000;
+    font-family: 'Raleway';
+margin-right: 93px;
 
-   font-size: 26px;
-   line-height: 1.2;
-   letter-spacing: 0.03em;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .web {
-   color: #2196F3;
-   font-family: 'Raleway';
+    color: #2196F3;
+    font-family: 'Raleway';
 
 
-   font-size: 26px;
-   line-height: 1.2;
-   letter-spacing: 0.03em;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .list-links {
@@ -63,21 +53,21 @@ nav {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    
+}
+.list-link{
+    margin-right: 54px;
+}
+.list-link:last-child{
+margin-right: 0px;
 }
 
 .links:hover{color: #2196F3;}
 
-
-
-
-.links {
-    margin: 32px 55px 32px 0px;
-}
-
-
 .list-contacts {
     list-style: none;
     display: flex;
+    margin-left: auto;
 }
 
 .contacts {
@@ -93,11 +83,12 @@ nav {
 
 
 a[href="mailto:info@devstudio.com"] {
-    margin-left: 335px;
+    padding-top: 32px;
 }
 
 a[href="tel:+380961111111"] {
     margin-left: 32px;
+    padding-top: 32px;
 }
 .menu {display: flex;
 justify-content: center
@@ -152,17 +143,17 @@ margin-top: 50px;
       border-radius: 4px;
       
    }
-      .footer {
+     .footer {
+   
     width: 1600px;
-    height: 252px;
-    
-
+   padding-bottom: 60px;
     background: #2F303A;
 }
 
-.logo-footer {
+.logo-footer { 
+    padding-top:60px ;
+    padding-left: 215px; 
     font-family: 'Raleway';
-    margin-top: 60px;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -172,8 +163,6 @@ margin-top: 50px;
 
 .logo-word {
     font-family: 'Raleway';
-    margin-left: 215px;
-    
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -181,6 +170,7 @@ margin-top: 50px;
 }
 
 .place {
+    font-style: normal;
     margin-top: 20px;
     margin-left: 215px;
     font-weight: 400;
@@ -204,8 +194,8 @@ margin-top: 50px;
     margin-top: 9px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
-   margin-left: 215px;
+    line-height: 1.7;
+margin-left: 215px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }

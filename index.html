@@ -8,29 +8,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <div class="countainer"></div>
+  
   <!-- Шапка -->
   <header>
-    
+    <div class="container">
    <nav >
         <a href="/" class="main-page"><span class="web">Web</span>Studio</a>
         
             <ul class="list-links">
-                <li><a href="./index.html" class="links">Студія</a></li>
-                <li><a href="portfolio.html" class="links">Портфоліо</a></li>
-                <li><a href="/contacts" class="links">Контакти</a></li>
+                <li class="list-link"><a href="./index.html" class="links">Студія</a></li>
+                <li class="list-link"><a href="portfolio.html" class="links">Портфоліо</a></li>
+                <li class="list-link"><a href="/contacts" class="links">Контакти</a></li>
             </ul>
         
         
             <ul class="list-contacts">
+              
                 <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
             </ul>
     </nav>
+    </div>
     </header>
     
   <main>
@@ -44,9 +47,10 @@
         Замовити послугу
       </button>
     </section>
+
     <!-- Чому ми? -->
-    
     <section class="about-section">
+      <div class="container">
       <ul class="list-about">
         <li class="about-item">
           <h3 class="about-name">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -73,55 +77,59 @@
             magnam iure.</p>
         </li>
       </ul>
-      
+      </div>
 
     </section>
+
     <!-- Чим ми займаємося? -->
     <section class="what-do-we-do">
+      <div class="container">
       <h2 class="work-title">
         Чим ми займаємося
       </h2>
       <ul class="work-list">
-        <li>
-          <img src="035.jpg" alt="035">
+        <li class="item-work">
+          <img src="./images/035.jpg" alt="035">
         </li>
-        <li>
-          <img src="1234.jpg" alt="1234">
+        <li class="item-work">
+          <img src="./images/1234.jpg" alt="1234">
         </li>
-        <li>
-          <img src="12345.jpg" alt="12345">
+        <li class="item-work">
+          <img src="./images/12345.jpg" alt="12345">
         </li>
       </ul>
-
+</div>
     </section>
+
     <!-- Наша команда -->
     <section class="our-team-section">
-
+<div class="container">
       <h2 class="our-team">
         Наша команда
       </h2>
       <ul class="team">
         <li class="team-item">
-          <img src="028.jpg" alt="028">
-          <h3 class="title-name-Igor">Ігор Дем’яненко</h3>
-          <p class="profesion-Product">Product Designer</p>
+          <img src="./images/028.jpg" alt="028">
+          <h3 class="team-name">Ігор Дем’яненко</h3>
+          <p class="team-profesion">Product Designer</p>
         </li>
         <li class="team-item">
-          <img src="901.jpg" alt="901">
-          <h3 class="title-name-Olga">Ольга Репіна</h3>
-          <p class="profesion-Frontend">Frontend Developer</p>
+          <img src="./images/901.jpg" alt="901">
+          <h3 class="team-name">Ольга Репіна</h3>
+          <p class="team-profesion">Frontend Developer</p>
         </li>
         <li class="team-item">
-          <img src="902.jpg" alt="902">
-          <h3 class="title-name-Mikola">Микола Тарасов</h3>
-          <p class="profesion-Marketing">Marketing</p>
+          <img src="./images/902.jpg" alt="902">
+          <h3 class="team-name">Микола Тарасов</h3>
+          <p class="team-profesion">Marketing</p>
         </li>
         <li class="team-item">
-          <img src="309.jpg" alt="903">
-          <h3 class="title-name-Muhaylo">Михайло Єрмаков</h3>
-          <p class="profesion-Ul">UI Designer</p>
+          <img src="./images/309.jpg" alt="903">
+          <h3 class="team-name">Михайло Єрмаков</h3>
+          <p class="team-profesion">UI Designer</p>
         </li>
       </ul>
+</div>
 
     </section>
   </main>
@@ -134,7 +142,6 @@
       <li class="tel-footer">tel:099 111 11 11</li>
     </ul>
   </footer>
-  </div>
 </body>
 
 </html>
