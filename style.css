@@ -95,7 +95,13 @@ a[href="tel:+380961111111"] {
     margin-left: 32px;
     padding-top: 32px;
 }
-
+.icon{
+    left: 65.75%;
+right: 33.25%;
+width: 50px;
+height: 50px;
+bottom: 98.43%;
+}
 /* Мейн */
 
 
@@ -413,4 +419,36 @@ margin-left: 215px;
 }
 .list-footer {
     list-style: none;
+}
+.Regular-section{
+    padding-top: 94px;
+     padding-bottom: 94px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.taemes{
+    list-style: none;
+    display: flex;
+    padding: 0px; 
+}
+.Regular-customers{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.container-Reguler{
+    margin-right: 30px;
+    width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+.container-Reguler:last-child{
+    margin-right: 0px;
 }
