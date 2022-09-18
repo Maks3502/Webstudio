@@ -86,13 +86,19 @@ margin-right: 0px;
 }
 
 
+.icom-heder-mail{
+    margin-right: 10px;
+}
 
 a[href="mailto:info@devstudio.com"] {
     padding-top: 32px;
 }
-
-a[href="tel:+380961111111"] {
+.icom-heder-tel{
     margin-left: 32px;
+    margin-right: 10px;
+}
+a[href="tel:+380961111111"] {
+    
     padding-top: 32px;
 }
 .icon{
@@ -107,7 +113,6 @@ bottom: 98.43%;
 
 /* Секція-герой */
 .hero-section  {
-    width: 1600px;
         height: 600px;
     padding-top: 200px;
 background-image:url(./images/835.jpg) ;
@@ -267,7 +272,6 @@ margin-bottom: 50px;
 .our-team-section {
     padding-top: 94px;
     background-color: #F5F4FA;
-    width: 1600px;
     height: 648px;
     padding-right: auto;  
 }
@@ -362,8 +366,6 @@ width: 270px;
 
 /* Футер */
 .footer {
-   
-    width: 1600px;
    padding-bottom: 60px;
     background: #2F303A;
 }
@@ -452,3 +454,10 @@ border-radius: 4px;
 .container-Reguler:last-child{
     margin-right: 0px;
 }
+.svg-pages{
+   margin-bottom: 20px;
+   margin-left: 63px;
+   margin-top: 20px;
+   margin-right: 63px;
+}
+
