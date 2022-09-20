@@ -84,6 +84,8 @@ margin-right: 0px;
     line-height: 1.1;
     letter-spacing: 0.02em;
 }
+.contacts:hover{
+    color:#2196F3 ;}
 
 
 .icom-heder-mail{
@@ -411,11 +413,11 @@ width: 270px;
 }
 
 .tel-footer {
-    margin-top: 9px;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-margin-left: 215px;
+padding-left: 215px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -445,19 +447,70 @@ margin-bottom: 50px;
     color: #212121;
 }
 .container-Reguler{
-    margin-right: 30px;
-    width: 170px;
+   margin-right: 30px;
+width: 170px;
 height: 90px;
-border: 1px solid #AFB1B8;
+
+
+border: 1px solid gray;
 border-radius: 4px;
+
 }
 .container-Reguler:last-child{
     margin-right: 0px;
 }
 .svg-pages{
    margin-bottom: 20px;
-   margin-left: 63px;
+   margin-left: 50px;
    margin-top: 20px;
-   margin-right: 63px;
+   margin-right: auto;
+   height: 50px;
+   width: 70px;
+}
+.container-Reguler:hover{
+    fill: #2196F3;
+}
+.svg-pages:hover{
+    fill: #2196F3;
+}
+.svg-social-networks{
+    fill: #000000;
+    width: 30px;
+    height: 30px;
+    margin-right:10px ;
+    margin-top: 16px;
+    color: #AFB1B8;
+}
+.svg-social-networks:hover{
+    background-color: #2196F3;
+    border-radius: 100px;
+}
+.Join-in{
+    padding-left: 516px;
+    color: #FFFFFF;
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 16px;
+
+}
+.list-footer{
+    display:flex;
+}
+.list-item-footer{
+    padding-left: 516px;
+}
+.svg-social-networks-footer{
+background-color:100px solid white;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+}
+.svg-social-networks-footer:hover{
+    fill: #2196F3;
+    border-radius: 100px;
 }
 
