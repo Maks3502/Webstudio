@@ -392,7 +392,6 @@ width: 270px;
 
 .place {
     font-style: normal;
-    margin-top: 20px;
     margin-left: 215px;
     font-weight: 400;
     font-size: 14px;
@@ -407,12 +406,11 @@ width: 270px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     margin-left: 215px;
-    margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .tel-footer {
-    
+    padding-bottom: 60px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -479,21 +477,7 @@ border-radius: 4px;
     fill: #2196F3;
     
 }
-.svg-social-networks{
-    width: 30px;
-    height: 30px;
-    margin-right:10px ;
-    margin-top: 16px;
-    fill:#AFB1B8 ;
-}
-.svg-social-networks:first-child{
 
-}
-.svg-social-networks:hover{
-    fill: #FFFFFF;
-    background-color: #2196F3;
-    border-radius: 100%;
-}
 
 .Join-in{
     padding-left: 516px;
@@ -525,7 +509,34 @@ margin-right: 10px;
     background-color: #2196F3;
     border-radius: 100%;
 }
-.taem-networks{
+.social-list{
     display: flex;
+}
+.social-item{
+    margin-right: 10px;
+    margin-top: 16px;
+}
+.social-item:first-child{
+    padding-left: 44px;
+}
+.svg-social-networks{
+    width: 30px;
+    height: 30px;
+    margin-right:10px ;
+    margin-top: 16px;
+    fill:#AFB1B8 ;
+}
+
+.svg-social-networks:hover{
+    fill: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 100%;
+}
+.list-item-footer{
+    margin-right: 10px;
+    padding-left: 0px;
+}
+.list-item-footer:first-child{
+    padding-left: 516px;
 }
 
