@@ -3,6 +3,12 @@ body {
    font-family: 'Roboto';
 
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+}
 
 header{
     display: flex;
@@ -68,6 +74,9 @@ margin-right: 0px;
     list-style: none;
     display: flex;
     margin-left: auto;
+}
+.contacts:hover{
+    color:#2196F3 ;
 }
 
 .contacts {
@@ -144,8 +153,6 @@ margin-top: 50px;
       
    }
      .footer {
-   
-    width: 1600px;
    padding-bottom: 60px;
     background: #2F303A;
 }
