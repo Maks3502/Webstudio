@@ -115,10 +115,10 @@ bottom: 98.43%;
 
 /* Секція-герой */
 .hero-section  {
-        height: 600px;
-    padding-top: 200px;
-background-image:url(./images/835.jpg) ;
-linear-gradient:(to top,rgba(47, 48, 58, 0.4);)
+height: 600px;
+padding-top: 200px;
+background-image: linear-gradient (rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(./images/835.jpg);
+
 }
 
 
@@ -263,9 +263,25 @@ margin-bottom: 50px;
 .item-work{
     margin-right: 30px;
     width: 370px;
+    top: 224px;
 }
 .item-work:last-child{
     margin-right: 0px;
+}
+.team-do{
+    padding-left: 100px;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    padding-right: 100px;
+    position: absolute;
+    font-weight: 700;
+font-size: 14px;
+text-align: center;
+line-height: 16px;
+background: rgba(47, 48, 58, 0.8);
+}
+.decision{
+    position: relative;
 }
 
 
@@ -367,7 +383,9 @@ width: 270px;
 }
 
 /* Футер */
-.footer {
+
+     .footer {
+   padding-bottom: 60px;
     background: #2F303A;
 }
 
@@ -392,6 +410,7 @@ width: 270px;
 
 .place {
     font-style: normal;
+    margin-top: 20px;
     margin-left: 215px;
     font-weight: 400;
     font-size: 14px;
@@ -406,15 +425,16 @@ width: 270px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     margin-left: 215px;
+    margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .tel-footer {
-    padding-bottom: 60px;
+    margin-top: 9px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-padding-left: 215px;
+margin-left: 215px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
