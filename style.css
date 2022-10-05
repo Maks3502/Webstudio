@@ -117,8 +117,7 @@ bottom: 98.43%;
 .hero-section  {
 height: 600px;
 padding-top: 200px;
-background-image: linear-gradient (rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(./images/835.jpg);
-
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/835.jpg);
 }
 
 
@@ -262,6 +261,7 @@ margin-bottom: 50px;
 }
 .item-work{
     margin-right: 30px;
+    padding-bottom: 200px;
 }
 .item-work:last-child{
     margin-right: 0px;
@@ -274,18 +274,20 @@ margin-bottom: 50px;
 font-size: 14px;
 text-align: center;
 line-height: 16px;
-/* background: rgba(47, 48, 58, 0.8); */
+color: red;
+
 }
 .decision{
-    position: absolute;
+    position: relative;
     height:70px ;
     width:370px ;
     background: rgba(47, 48, 58, 0.8);
+    top: 224px;
 }
 .pages{
     width: 370px;
     height: 294px;
-    position: relative;
+    position: absolute;
 }
 
 
@@ -316,7 +318,6 @@ line-height: 16px;
     color: #212121;
 }
 .team-item{
-    
     width: 270px;
     padding-bottom: 30px;
     margin-right: 30px;
@@ -391,6 +392,7 @@ width: 270px;
      .footer {
    padding-bottom: 60px;
     background: #2F303A;
+    display: flex;
 }
 
 .logo-footer { 
@@ -438,7 +440,7 @@ width: 270px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-margin-left: 215px;
+    padding-left: 215px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -519,7 +521,7 @@ margin-bottom: 16px;
     display:flex;
 }
 .list-item-footer{
-    padding-left: 516px;
+    
 }
 .svg-social-networks-footer{
 fill: #FFFFFF;
@@ -537,25 +539,33 @@ margin-right: 10px;
     display: flex;
 }
 .social-item{
-    margin-right: 10px;
+    margin-right: 30px;
     margin-top: 16px;
     padding-bottom: 30px;
 }
 .social-item:first-child{
-    padding-left: 44px;
+    padding-left: 30px;
 }
 .svg-social-networks{
     width: 30px;
     height: 30px;
-    margin-right:10px ;
-    margin-top: 16px;
     fill:#AFB1B8 ;
 }
+.social-link{
+    width: 30px;
+height: 30px;
+}
 
-.svg-social-networks:hover{
+.social-link:hover{
     fill: #FFFFFF;
     background-color: #2196F3;
-    border-radius: 100%;
+    border-radius: 50%;
+padding-left: 15px; 
+padding-top: 25px;
+padding-bottom: 15px;
+padding-right: 15px;
+width: 30px;
+height: 30px;
 }
 .list-item-footer{
     margin-right: 10px;
@@ -564,4 +574,104 @@ margin-right: 10px;
 .list-item-footer:first-child{
     padding-left: 516px;
 }
+.backdrop{
+    padding-left: 535px;
+ transition: (-50%,-50%);
+ background-color: rgba(0, 0, 0, 0.2);
+}
+.modall{
+    
+    width: 581px;
+height: 609px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+.closde{
+    width: 11px;
+    height: 11px;
+}
+.people{
+    width: 12px;
+    height: 12px;
+}
+.list-closde{
+    padding-left: 537px;
+    padding-top: 17px;
+}
+.list-leave-it{
+    padding-left: 41px;
+    padding-top: 40px;
+    margin-bottom: 12px;
+}
+.input-1{
+    width: 400px;
+height: 40px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+.list-people{
+    padding-left: 40px;
+}
+.tel{
+    width: 13px;
+    height: 13px;
+}
+.list-tel{
+    padding-left: 40px;
+}
+.list-mail{
+    padding-left: 40px;
+}
+.mail{
+    width: 15px;
+    height: 13px;
+}
+.modal-imput{
+    width: 448px;
+height: 120px;
+}
+.write-tex{
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.list-checkbox{
+    margin-top: 25px;
+    padding-left: 54px;
+    width: 15px;
+    height: 16px;
+}
+.I-agree{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
 
+color: #757575;
+width: 300px;
+height: 24px;
+margin-left: 10px;
+}
+.link-checkbox{
+    color: rgba(33, 150, 243, 1);
+    height: 24px;
+    width: 100px;
+}
+.main-btn{
+    border: none;
+    font-size: 16px;
+    padding: auto;
+    margin-top: 30px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    display: block;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
