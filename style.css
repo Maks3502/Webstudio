@@ -90,6 +90,7 @@ margin-right: 0px;
 
 .icom-heder-mail{
     margin-right: 10px;
+    fill: currentColor;
 }
 
 a[href="mailto:info@devstudio.com"] {
@@ -98,6 +99,7 @@ a[href="mailto:info@devstudio.com"] {
 .icom-heder-tel{
     margin-left: 32px;
     margin-right: 10px;
+    fill: currentColor;
 }
 a[href="tel:+380961111111"] {
     
@@ -397,7 +399,6 @@ width: 270px;
 
 .logo-footer { 
     padding-top:60px ;
-    padding-left: 215px; 
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.2;
@@ -417,7 +418,6 @@ width: 270px;
 .place {
     font-style: normal;
     margin-top: 20px;
-    margin-left: 215px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -430,7 +430,6 @@ width: 270px;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    margin-left: 215px;
     margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -440,7 +439,6 @@ width: 270px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    padding-left: 215px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -473,8 +471,6 @@ margin-bottom: 50px;
    margin-right: 30px;
 width: 170px;
 height: 90px;
-
-
 border: 1px solid grey;
 border-radius: 4px;
 }
@@ -506,7 +502,6 @@ border-radius: 4px;
 
 
 .Join-in{
-    padding-left: 516px;
     color: #FFFFFF;
     font-style: normal;
 font-weight: 700;
@@ -537,23 +532,25 @@ margin-right: 10px;
 }
 .social-list{
     display: flex;
+    margin-top: 16px;
+    justify-content: center;
 }
 .social-item{
     margin-right: 30px;
-    margin-top: 16px;
-    padding-bottom: 30px;
 }
-.social-item:first-child{
-    padding-left: 30px;
+.social-item:last-child{
+    margin-right: 0px;
 }
 .svg-social-networks{
     width: 30px;
     height: 30px;
-    fill:#AFB1B8 ;
 }
 .social-link{
-    width: 30px;
-height: 30px;
+fill: #AFB1B8;
+align-items: center;
+justify-content: center
+;
+display: flex;
 }
 
 .social-link:hover{
@@ -561,11 +558,9 @@ height: 30px;
     background-color: #2196F3;
     border-radius: 50%;
 padding-left: 15px; 
-padding-top: 25px;
+padding-top: 15px;
 padding-bottom: 15px;
 padding-right: 15px;
-width: 30px;
-height: 30px;
 }
 .list-item-footer{
     margin-right: 10px;
@@ -594,6 +589,9 @@ border-radius: 4px;
 .people{
     width: 12px;
     height: 12px;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 15px;
 }
 .list-closde{
     padding-left: 537px;
@@ -609,6 +607,8 @@ border-radius: 4px;
 height: 40px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+padding-left: 42px;
+/* position: relative; */
 }
 .list-people{
     padding-left: 40px;
@@ -616,6 +616,11 @@ border-radius: 4px;
 .tel{
     width: 13px;
     height: 13px;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 15px;position: absolute;
+    margin-top: 14px;
+    margin-left: 15px;
 }
 .list-tel{
     padding-left: 40px;
@@ -626,6 +631,9 @@ border-radius: 4px;
 .mail{
     width: 15px;
     height: 13px;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 15px;
 }
 .modal-imput{
     width: 448px;
@@ -656,12 +664,13 @@ margin-left: 10px;
     color: rgba(33, 150, 243, 1);
     height: 24px;
     width: 100px;
+    justify-content: center;
 }
 .main-btn{
     border: none;
     font-size: 16px;
     padding: auto;
-    margin-top: 30px;
+    margin-top: 60px;
     line-height: 1.9;
     align-items: center;
     text-align: center;
@@ -670,8 +679,18 @@ margin-left: 10px;
     width: 200px;
     height: 50px;
     display: block;
-    
+    margin-left: auto;
+    margin-right: auto;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+.text-modall{
+    width: 38px;
+height: 14px;
+letter-spacing: 0.01em;
+
+color: #757575;
+margin-bottom: 4px;
+margin-top: 10px;
 }
