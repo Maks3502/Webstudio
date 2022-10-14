@@ -164,8 +164,10 @@ background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     margin-left: auto;
     margin-right: auto;
     background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: ;
     border-radius: 4px;
+    /* box-shadow: 0 5px o rgb(175, 2, 2); */
+    position: relative;
 }
 
 
@@ -718,6 +720,9 @@ margin-left: 10px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    position: relative;
+    top: 0px;
+    box-shadow: 0 5px o #161616;
 }
 .text-modall{
     width: 38px;
@@ -727,4 +732,22 @@ letter-spacing: 0.01em;
 color: #757575;
 margin-bottom: 4px;
 margin-top: 10px;
+}
+.modal-imput{
+    padding-top: 12px;
+    padding-left: 16px;
+}
+.main-btn:hover{
+    background-color: rgb(1, 36, 1);
+}
+.main-btn:active{
+top: 3px;
+box-shadow: 0 2px o #161616;
+}
+.hero-btn:hover{
+    background-color: rgb(197, 6, 6);
+}
+.hero-btn:active{
+    top:5px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15) ;
 }
