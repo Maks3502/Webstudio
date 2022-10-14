@@ -49,15 +49,15 @@
       <h1 class="hero-title">
         еФЕКтивні рішення для <br> вашого бізнесу
       </h1>
-      <button type="button" class="hero-btn">
+      <button data-open-modal type="button" class="hero-btn">
         Замовити послугу
       </button>
     </section>
-    <div class="backdrop">
+    <div class="backdrop .is-hidden" data-backdrop >
       <div class="modall">
 <ul>
-  <li class="list-closde"><svg class="closde"><use href="./images/symbol-defs.svg#closde">
-  </use></svg></li>
+  <li class="list-closde"><button class="closde-btn" data-close-modal ><svg class="closde"><use href="./images/symbol-defs.svg#closde"></use></svg></button>
+  </li>
   <li class="list-leave-it"><h2>Залиште свої дані, ми Вам зателефонуємо </h2></li>
 
   <li class="list-people"><p class="text-modall">Ім’я</p>
@@ -286,6 +286,7 @@
   </main>
   <footer class="footer">
     <div>
+    <div class="container">
     <h2 class="logo-footer"><span class="logo-word">Web</span>Studio</h2>
     <address class="place">м. Київ, пр-т Лесі Українки, 26</address>
     <ul class="list-footer">
@@ -293,7 +294,7 @@
       <li class="tel-footer">tel:099 111 11 11</li>
     </ul>
     </div>
-    <div>
+    <div class="">
     <h2 class="Join-in">Приєднуйтесь</h2>
 <ul class="list-footer"><li class="list-item-footer">
               <a>
@@ -319,6 +320,27 @@
           </li>
     </ul>
     </div>
+    </div>
+<script>
+      const refs = {
+        openModalBtn: document.querySelector("[data-open-modal]"),
+        closeModalBtn: document.querySelector("[data-close-modal]"),
+        backdrop: document.querySelector("[data-backdrop]"),
+      };
+
+      refs.openModalBtn.addEventListener("click", toggleModal);
+      refs.closeModalBtn.addEventListener("click", toggleModal);
+
+      refs.backdrop.addEventListener("click", logBackdropClick);
+
+      function toggleModal() {
+        refs.backdrop.classList.toggle("is-hidden");
+      }
+
+      function logBackdropClick() {
+        console.log("Це клік в бекдроп");
+      }
+    </script>
         
   </footer>
 </body>
