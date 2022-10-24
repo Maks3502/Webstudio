@@ -124,7 +124,6 @@ button{
 
 .container{
    box-sizing: border-box;
-margin-left: 215px;
 margin-top: 50px;
 
 }
@@ -145,11 +144,12 @@ margin-top: 50px;
    margin-left: 24px;
 }
 .title{
-   /*  Set the width of the elements  */
+    overflow: hidden;
+   position: relative;
       flex-basis: calc((100% - 20px) / 3);
       background-color: #FFFFFF;
       width: 370px;
-height: 404px;
+height: 420px;
  margin-bottom: 30px;
   border: 1px solid #EEEEEE;    
    }
@@ -210,6 +210,34 @@ margin-left: 215px;
 .list-footer {
     list-style: none;
 }
-  
+.container-pages{
+   position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+opacity: 0;
+background-color: #2196F3;
+}
+.title:hover .container-pages{
+    opacity: 1;
+}
+.pages{
+    width: 370px;
+height: 294px;
+}
+  .text-hover{
+    position: absolute;
+width: 322px;
+height: 168px;
+left: 24px;
+top: 63px;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+  }
   
 
