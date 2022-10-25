@@ -131,13 +131,12 @@ bottom: 98.43%;
 /* Секція-герой */
 .hero-section  {
 height: 600px;
-padding-top: 200px;
 background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/835.jpg);
 }
 
 
 .hero-title {
-    
+    padding-top: 200px;
     font-weight: 900;
     padding: auto;
     font-size: 44px;
@@ -412,6 +411,9 @@ width: 270px;
     display: flex;
 }
 
+footer .container{
+    display: flex;
+}
 .logo-footer { 
     padding-top:60px ;
     font-family: 'Raleway';
@@ -421,13 +423,59 @@ width: 270px;
 
     color: #2196F3;
 }
+.list-mailing{
+    display: flex;
+}
+.footer-mailing{
+    padding-left: 100px;
+    padding-top:75px ;
+}
+.mailing-text{
+color: #FFFFFF;
+margin-bottom: 20px;
+font-size: 20px;
+letter-spacing: 0.03em;
+}
+.footer-btn{
+    width: 200px;
+height: 50px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    line-height: 1.9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    display: block;
+    background: #2196F3;
+    border-radius: 4px;
+}
+.svg-mailing{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    fill: #FFFFFF;
+    /* margin-top: 12px; */
+}
+.footer-social{
+    padding-top: 72px;
+    padding-left: 70px;
+}
 
 .logo-word {
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
+;
+}
+.footer-input{
+    padding-left: 12px;
+    margin-right: 12px;
+    width: 450px;
+height: 50px;
+background: #2F303A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .place {
@@ -460,6 +508,7 @@ width: 270px;
 .list-footer {
     list-style: none;
 }
+
 .Regular-section{
     padding-top: 94px;
      padding-bottom: 94px;
@@ -591,14 +640,15 @@ padding-right: 15px;
 .backdrop.is-hidden .form{
     transform: translate(-50%, -50%) scale(0);
 }
-.backdrop{
-    /* padding-left: 535px; */
- background-color: rgba(0, 0, 0, 0.2);
- width: 100%;
- height: 100%;
- top: 0;
- left: 0;
- /* padding-bottom: 40px; */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+   bottom: 0;
+  right: 0; 
+ 
+  background-color: rgba(244, 243, 245, 0.5);
+
 }
 .modall{
     transform:translate(-50%,-50%) scale(1);

@@ -10,6 +10,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- <link rel="stylesheet" href="./script.js"> -->
+    <link rel="stylesheet" href="./sendmail.php">
 </head>
 
 <body>
@@ -22,7 +24,7 @@
         
             <ul class="list-links">
               
-                <li class="list-link"><a href="./index.html" class="links">Студія</a></li>
+                <li class="list-link"><a href="./index.html" class="links after-pages">Студія</a></li>
                 <li class="list-link"><a href="portfolio.html" class="links">Портфоліо</a></li>
                 <li class="list-link"><a href="/contacts" class="links">Контакти</a></li>
             </ul>
@@ -53,7 +55,7 @@
         Замовити послугу
       </button>
     </section>
-    <div class="backdrop .is-hidden" data-backdrop >
+    <div class="backdrop is-hidden" data-backdrop >
       <div class="modall">
 <ul>
   <li class="list-closde"><button class="closde-btn" data-close-modal ><svg class="closde"><use href="./images/symbol-defs.svg#closde"></use></svg></button>
@@ -62,21 +64,21 @@
 
   <li class="list-people"><p class="text-modall">Ім’я</p>
   <svg class="people"><use href="./images/symbol-defs.svg#people"></use></svg>
-  <input type="text" class="input-1">
+  <input type="text" class="input-1" name="people" placeholder="Ведите Name">
 </li>
 <li class="list-tel">
   <p class="text-modall">Телефон</p>
   <svg class="tel"><use href="./images/symbol-defs.svg#tel"></use></svg>
-  <input type="text" class="input-1">
+  <input type="text" class="input-1" name="Telephone" placeholder="Ведите Telephone" >
 </li>
 <li class="list-mail">
   <p class="text-modall">Пошта</p>
   <svg class="mail"><use href="./images/symbol-defs.svg#mail"></use></svg>
-  <input type="text" class="input-1">
+  <input type="email" class="input-1" name="Mail" placeholder="Ведите Mail" >
 </li>
 <li class="write-tex">
   <p class="text-modall">Коментарі</p>
-  <textarea class="modal-imput"  placeholder="Введите текст"></textarea>
+  <textarea class="modal-imput" name="Comment"  placeholder="Введите текст"></textarea>
 </li>
 <li class="list-checkbox">
   <div class="terms">
@@ -285,8 +287,8 @@
     
   </main>
   <footer class="footer">
-    <div>
     <div class="container">
+      <div class="footer-infor">
     <h2 class="logo-footer"><span class="logo-word">Web</span>Studio</h2>
     <address class="place">м. Київ, пр-т Лесі Українки, 26</address>
     <ul class="list-footer">
@@ -294,7 +296,8 @@
       <li class="tel-footer">tel:099 111 11 11</li>
     </ul>
     </div>
-    <div class="">
+
+    <div class="footer-social">
     <h2 class="Join-in">Приєднуйтесь</h2>
 <ul class="list-footer"><li class="list-item-footer">
               <a>
@@ -317,8 +320,13 @@
               </a>
             </li>
           </ul>
-          </li>
-    </ul>
+    </div>
+    <div class="footer-mailing">
+      <h2 class="mailing-text">Подпишитесь на рассылку</h2>
+      <ul class="list-mailing">
+     <li class="link-mailing"><input class="footer-input" type="text" placeholder="E-mail"></li>
+     <li class="link-mailing"><button class="footer-btn" type="button">Подписатся <svg class="svg-mailing"><use href="./images/symbol-defs.svg#telegram"></use></svg></button></li>
+     </ul>
     </div>
     </div>
 <script>
