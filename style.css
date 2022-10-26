@@ -431,6 +431,7 @@ footer .container{
     padding-top:75px ;
 }
 .mailing-text{
+    font-weight: 500;
 color: #FFFFFF;
 margin-bottom: 20px;
 font-size: 20px;
@@ -448,6 +449,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     display: block;
     background: #2196F3;
     border-radius: 4px;
+    position: relative;
 }
 .svg-mailing{
     width: 24px;
@@ -467,7 +469,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 1);
-;
+
 }
 .footer-input{
     padding-left: 12px;
@@ -489,7 +491,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .email-footer {
-    font-weight: 400;
+   font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -498,7 +500,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .tel-footer {
-    margin-top: 9px;
+    /* margin-top: 9px; */
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -563,12 +565,10 @@ border-radius: 4px;
     fill: #2196F3;
     
 }
-
-
 .Join-in{
     color: #FFFFFF;
     font-style: normal;
-font-weight: 700;
+font-weight: 600;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
@@ -610,6 +610,8 @@ margin-right: 10px;
     height: 30px;
 }
 .social-link{
+    width: 44px;
+    height: 44px;
 fill: #AFB1B8;
 align-items: center;
 justify-content: center
@@ -621,18 +623,16 @@ display: flex;
     fill: #FFFFFF;
     background-color: #2196F3;
     border-radius: 50%;
-padding-left: 15px; 
-padding-top: 15px;
-padding-bottom: 15px;
-padding-right: 15px;
+
 }
 .list-item-footer{
     margin-right: 10px;
-    padding-left: 0px;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
-.list-item-footer:first-child{
-    
-}
+
 .backdrop.is-hidden{
     opacity:0;
     pointer-events: none;
@@ -800,4 +800,11 @@ box-shadow: 0 2px o #161616;
 .hero-btn:active{
     top:5px;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15) ;
+}
+.footer-btn:hover{
+    background-color: purple;
+}
+.footer-btn:active{
+    top:5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

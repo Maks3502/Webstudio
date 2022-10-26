@@ -239,5 +239,20 @@ line-height: 28px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
   }
+  .menu-btn{
+    font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+  }
+  .menu-btn:hover{
+color: #FFFFFF;
+  }
   
 
