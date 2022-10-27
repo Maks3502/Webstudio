@@ -585,8 +585,8 @@ margin-bottom: 16px;
 .svg-social-networks-footer{
 fill: #FFFFFF;
 background-color: 100% solid #757575;
-width: 30px;
-height: 30px;
+width: 20px;
+height: 20px;
 margin-right: 10px;
 }
 .svg-social-networks-footer:hover{
@@ -600,14 +600,14 @@ margin-right: 10px;
     justify-content: center;
 }
 .social-item{
-    margin-right: 30px;
+    margin-right: 10px;
 }
 .social-item:last-child{
     margin-right: 0px;
 }
 .svg-social-networks{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 .social-link{
     width: 44px;
